@@ -3,6 +3,9 @@ body{
     overflow-y: hidden;
     font-size: 16px;
 }
+.texto_contato{
+    font-size: 0.6em;
+}
 .background{
     /* Define a URL to the background image */
     background-image: url('../img/fundo_sheriff2.png');
@@ -100,7 +103,7 @@ body{
     height: 500px;
 }    
 
-@media (max-width: 850px){
+@media (max-width: 880px){
     .linha_exposicao{
         
         height: max-content;
